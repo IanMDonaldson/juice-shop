@@ -455,10 +455,7 @@ describe('configValidation', () => {
     const config = {
       application: {
         domain: 'juice-b.ox',
-        name: 'OWASP Juice Box',
-        welcomeBanner: {
-          showOnFirstStart: false
-        }
+        name: 'OWASP Juice Box'
       },
       hackingInstructor: {
         avatarImage: 'juicyEvilWasp.png'
@@ -472,10 +469,7 @@ describe('configValidation', () => {
     const config = {
       application: {
         domain: 42,
-        id: 'OWASP Juice Box',
-        welcomeBanner: {
-          showOnFirstStart: 'yes'
-        }
+        id: 'OWASP Juice Box'
       },
       hackingInstructor: {
         avatarImage: true

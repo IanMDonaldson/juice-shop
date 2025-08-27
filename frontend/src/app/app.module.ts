@@ -76,7 +76,6 @@ export function HttpLoaderFactory (http: HttpClient) {
     BasketComponent,
     LoginComponent,
     NavbarComponent,
-    WelcomeComponent,
     WelcomeBannerComponent,
     SearchResultComponent,
     ForgotPasswordComponent,

@@ -12,7 +12,7 @@ import { TestBed, waitForAsync } from '@angular/core/testing'
 import { AppComponent } from './app.component'
 import { NavbarComponent } from './navbar/navbar.component'
 import { SidenavComponent } from './sidenav/sidenav.component'
-import { WelcomeComponent } from './welcome/welcome.component'
+// import { WelcomeComponent } from './welcome/welcome.component'
 import { ChallengeSolvedNotificationComponent } from './challenge-solved-notification/challenge-solved-notification.component'
 
 import { MatSelectModule } from '@angular/material/select'
@@ -62,7 +62,7 @@ describe('AppComponent', () => {
         MatListModule,
         MatDialogModule,
         NavbarComponent,
-        WelcomeComponent,
+        // WelcomeComponent,
         SidenavComponent,
         ChallengeSolvedNotificationComponent,
         ServerStartedNotificationComponent,

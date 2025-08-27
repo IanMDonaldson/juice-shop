@@ -128,9 +128,9 @@ export class SidenavComponent implements OnInit {
       if (config?.application) {
         this.showGitHubLink = config.application.showGitHubLinks
       }
-      if (config?.application.welcomeBanner.showOnFirstStart && config.hackingInstructor.isEnabled) {
-        this.offerScoreBoardTutorial = config.application.welcomeBanner.showOnFirstStart && config.hackingInstructor.isEnabled
-      }
+      // if (config?.application.welcomeBanner.showOnFirstStart && config.hackingInstructor.isEnabled) {
+      //   this.offerScoreBoardTutorial = config.application.welcomeBanner.showOnFirstStart && config.hackingInstructor.isEnabled
+      // }
     }, (err) => { console.log(err) })
   }
 
